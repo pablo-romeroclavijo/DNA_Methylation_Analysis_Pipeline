@@ -9,13 +9,13 @@ The programme is divided in 3 sections:
 	3) Plotting: for this example very basic plots have been included. Including QC plots. Data stored in new Directory 3_Plot.
 
 
-Required directories:
+Required directories in the same directory as the script:
 
-¥ 0_Raw_data:
+         + 0_Raw_data:
 		1)Fastq files, can be modified in the SeqIO parameters in case of using FASTA
-¥ 0_Reference
-		 2) Ref_uncon.txt Ñ Fasta sequence of the unconverted amplicon
-		 3) Barcodes.txt Ñ file required for Decoder
+         + 0_Reference
+		 2) Ref_uncon.txt Ã‘ Fasta sequence of the unconverted amplicon
+		 3) Barcodes.txt Ã‘ file required for Decoder
 
 
 Partial Scripts to generate additional sample data based on user-determined parameters can be found in SubScripts. As well as, segments of the main script.
